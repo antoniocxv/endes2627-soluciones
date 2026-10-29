@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="category">
+  <category><text>$course$/top/ENDES - Evaluacion inicial/A - De donde vienes</text></category>
+  <info format="html"><text><![CDATA[<p>Preguntas de contexto. No tienen respuesta correcta y no puntúan.</p>]]></text></info>
+</question>
+
+<question type="multichoice">
+  <name><text>A1 - Via de acceso</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Cómo has llegado a este ciclo?</b></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Bachillerato]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Grado medio]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Prueba de acceso]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Otro ciclo superior]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Universidad (empezada o terminada)]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Otra vía]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>A2 - Experiencia programando</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Has programado alguna vez, aunque fuera poco?</b></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[No, nunca]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Algo por mi cuenta]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Sí, en clase]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Sí, en el trabajo]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="essay">
+  <name><text>A3 - Lenguajes</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Si has programado, ¿en qué lenguajes y cuánto tiempo?</b></p><p><i>Si no has programado nunca, escribe simplemente «nada».</i></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade><penalty>0</penalty>
+  <responseformat>editor</responseformat><responserequired>0</responserequired>
+  <responsefieldlines>3</responsefieldlines>
+  <attachments>0</attachments><attachmentsrequired>0</attachmentsrequired>
+  <graderinfo format="html"><text><![CDATA[Dato de contexto. Sin calificación.]]></text></graderinfo>
+</question>
+
+<question type="multichoice">
+  <name><text>A4 - Herramientas usadas</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Con qué has escrito código alguna vez?</b> Elige la que más hayas usado.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Bloc de notas o similar]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Visual Studio Code]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[IntelliJ o PyCharm]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Eclipse]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[NetBeans]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Un editor online (replit, codepen…)]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Ninguno]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>A5 - Conceptos que podrias explicar</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>De esta lista, ¿cuántos conceptos podrías explicarle a un compañero?</b></p><p><i>Algoritmo · Compilar · Depurar · Git · GitHub · Prueba unitaria · Refactorizar · UML · Terminal</i></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Ninguno]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Uno o dos]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Entre tres y cinco]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Más de cinco]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>A6 - Situacion laboral</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Trabajas ahora mismo?</b></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[No]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Sí, a tiempo parcial]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Sí, a jornada completa]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>A7 - Equipo propio</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Tienes ordenador para trabajar en casa?</b></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Sí, portátil]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Sí, sobremesa]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Comparto uno con más gente]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Solo móvil o tablet]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>A8 - Sistema operativo</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Qué sistema operativo usas habitualmente?</b></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Windows]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[macOS]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Linux]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Varios]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="category">
+  <category><text>$course$/top/ENDES - Evaluacion inicial/B - Que sabes ya</text></category>
+  <info format="html"><text><![CDATA[<p>Conocimientos previos, vinculados a los seis resultados de aprendizaje. Marcar «No lo sé» no resta: es la respuesta más útil.</p>]]></text></info>
+</question>
+
+<question type="multichoice">
+  <name><text>B01 - Algoritmo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un <b>algoritmo</b> es:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Sin algoritmo no puede haber programa. Es el contenido 1.1 de la unidad 1.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Un programa escrito en cualquier lenguaje]]></text><feedback format="html"><text><![CDATA[Un programa es la implementación de un algoritmo, no el algoritmo.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Una secuencia ordenada de pasos para resolver un problema]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Una función matemática]]></text><feedback format="html"><text><![CDATA[Muchos algoritmos son matemáticos, pero no es la definición.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Perfecto, es lo primero que damos en la UD1.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B02 - Compilar vs interpretar</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Qué diferencia hay entre <b>compilar</b> e <b>interpretar</b>?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Y hay una tercera vía, la compilación JIT, que es la que usan Java y JavaScript. La vemos en la sesión 3.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Compilar traduce todo el programa antes de ejecutarlo; interpretar lo va ejecutando línea a línea]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Compilar es para programas grandes e interpretar para pequeños]]></text><feedback format="html"><text><![CDATA[El tamaño no tiene nada que ver.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Son dos palabras para lo mismo]]></text><feedback format="html"><text><![CDATA[Son dos estrategias de traducción distintas.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Es el concepto central de la UD1.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B03 - Codigo fuente</text></name>
+  <questiontext format="html"><text><![CDATA[<p>El <b>código fuente</b> de un programa:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Fuente, objeto y ejecutable son tres cosas distintas, y en la práctica P1.1 los vais a abrir para verlo.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Es un fichero binario que solo entiende el ordenador]]></text><feedback format="html"><text><![CDATA[Eso es el ejecutable, no el fuente.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Es texto que puede leer una persona]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Se genera al instalar el programa]]></text><feedback format="html"><text><![CDATA[Al revés: el fuente existe antes de todo.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Sin problema.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B04 - Que es un IDE</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un <b>IDE</b> es:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>IDE = Integrated Development Environment. La palabra clave es «integrado»: lo que aporta es tener todo junto.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Un tipo de lenguaje de programación]]></text><feedback format="html"><text><![CDATA[No: es una herramienta, no un lenguaje.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Un editor de texto con corrector ortográfico]]></text><feedback format="html"><text><![CDATA[Eso es un procesador de textos.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Un entorno que junta editor, compilador, depurador y más herramientas]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Es el contenido de la UD2, la unidad más larga del módulo.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B05 - El depurador</text></name>
+  <questiontext format="html"><text><![CDATA[<p>El <b>depurador</b> (<i>debugger</i>) sirve para:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Aprender a usar el depurador es lo que separa «programar a base de console.log» de programar en serio.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Borrar el código que no se usa]]></text><feedback format="html"><text><![CDATA[Eso no lo hace ninguna herramienta sola.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Detener el programa en un punto y ver el valor de las variables]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Corregir automáticamente los errores]]></text><feedback format="html"><text><![CDATA[Ojalá. El depurador te enseña dónde está el error; corregirlo es cosa tuya.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Muy normal: casi nadie ha usado uno antes de este ciclo.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B06 - Que es Git</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Git</b> es:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Git es el programa que llevas instalado; GitHub es una web que aloja repositorios de Git. Git funciona sin internet.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Una página web donde se guarda código]]></text><feedback format="html"><text><![CDATA[Eso es GitHub. Git y GitHub no son lo mismo: es la confusión más común.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Un sistema de control de versiones]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Un lenguaje de programación]]></text><feedback format="html"><text><![CDATA[No.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Se ve entero en la UD4.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B07 - Conflicto</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Si dos personas modificáis <b>a la vez</b> la misma parte del mismo fichero y luego juntáis el trabajo, a eso se le llama:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Resolver un conflicto de fusión es una de las prácticas evaluables de la UD4.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Error de compilación]]></text><feedback format="html"><text><![CDATA[No: el código puede estar perfectamente bien escrito.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Conflicto]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Excepción]]></text><feedback format="html"><text><![CDATA[Una excepción es un error en tiempo de ejecución.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Normal si nunca has trabajado en equipo sobre el mismo código.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B08 - Prueba unitaria</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Una <b>prueba unitaria</b> comprueba:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La palabra clave es «unitaria»: se prueba una unidad pequeña y aislada.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Que la aplicación entera funciona de principio a fin]]></text><feedback format="html"><text><![CDATA[Eso es una prueba de sistema o end-to-end.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Que una parte pequeña del código (una función) hace lo que debe]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que el programa aguanta muchos usuarios a la vez]]></text><feedback format="html"><text><![CDATA[Eso es una prueba de carga.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Es el contenido de la UD3.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B09 - Refactorizar</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Refactorizar</b> significa:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La definición de Fowler: cambiar la estructura interna sin alterar el comportamiento externo. Si cambia lo que hace, no es refactorizar.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Cambiar cómo está escrito el código sin cambiar lo que hace]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Añadir funciones nuevas al programa]]></text><feedback format="html"><text><![CDATA[Eso es desarrollar, no refactorizar.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Corregir un error que estaba dando fallos]]></text><feedback format="html"><text><![CDATA[Ese es el error más habitual: corregir un fallo NO es refactorizar.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Es la UD4.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B10 - Clase y objeto</text></name>
+  <questiontext format="html"><text><![CDATA[<p>En programación orientada a objetos, la diferencia entre <b>clase</b> y <b>objeto</b> es:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La clase es el plano; el objeto es la casa construida con ese plano. De una clase salen muchos objetos.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[No hay diferencia]]></text><feedback format="html"><text><![CDATA[Sí la hay, y es importante.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[La clase es el molde; el objeto es cada cosa concreta hecha con ese molde]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[El objeto es el molde; la clase es cada ejemplar]]></text><feedback format="html"><text><![CDATA[Es justo al revés.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Depende de si has dado POO antes. Se repasa al principio de la UD5.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B11 - Que es UML</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>UML</b> es:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Unified Modeling Language. Son catorce tipos de diagrama; en el módulo damos los más usados.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Un lenguaje de programación]]></text><feedback format="html"><text><![CDATA[No se ejecuta: es notación gráfica.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Un conjunto de diagramas para representar software]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Un formato de fichero]]></text><feedback format="html"><text><![CDATA[No.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Lo habitual. Son las unidades 5 y 6.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>B12 - Caso de uso</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un <b>caso de uso</b> describe:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El caso de uso mira el sistema desde fuera, desde quien lo usa. Por eso se hace antes de escribir código.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Cómo está organizado el código por dentro]]></text><feedback format="html"><text><![CDATA[Eso sería un diagrama de clases.]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Qué puede hacer un usuario con el sistema]]></text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Cuántas personas usan la aplicación]]></text><feedback format="html"><text><![CDATA[No.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No lo sé]]></text><feedback format="html"><text><![CDATA[Es la UD6.]]></text></feedback></answer>
+</question>
+
+<question type="matching">
+  <name><text>B13 - Fases del ciclo de vida</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Ordena las fases del desarrollo de software.</b> Asigna a cada una el número que le corresponde.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El orden es: análisis, diseño, codificación, pruebas y mantenimiento. Y una sorpresa de la UD1: el mantenimiento se lleva más de la mitad del coste total de un programa.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><shuffleanswers>true</shuffleanswers>
+  <subquestion format="html"><text><![CDATA[Análisis de requisitos]]></text><answer><text><![CDATA[1]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Diseño]]></text><answer><text><![CDATA[2]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Codificación]]></text><answer><text><![CDATA[3]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Pruebas]]></text><answer><text><![CDATA[4]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Mantenimiento]]></text><answer><text><![CDATA[5]]></text></answer></subquestion>
+</question>
+
+<question type="multichoice">
+  <name><text>B14 - Uso de la terminal</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Has usado alguna vez la terminal</b> (línea de comandos) para algo?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>No hay respuesta correcta. Si nadie de la clase la ha usado, dedicaremos una sesión a ella antes de llegar a Git.</p>]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Nunca]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Alguna vez, copiando comandos de internet]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Sí, con soltura]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="category">
+  <category><text>$course$/top/ENDES - Evaluacion inicial/C - Razonar</text></category>
+  <info format="html"><text><![CDATA[<p>Preguntas abiertas. No se califican: sirven para ver cómo se aborda un problema.</p>]]></text></info>
+</question>
+
+<question type="essay">
+  <name><text>C1 - Antes de programar</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Tienes que hacer un programa que diga si un año es <b>bisiesto</b>.</p><p><b>Antes de escribir ni una línea de código, ¿qué harías?</b> Cuenta los pasos que seguirías. Tres o cuatro líneas.</p><p><i>No busques en internet: quiero saber cómo piensas, no si aciertas.</i></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade><penalty>0</penalty>
+  <responseformat>editor</responseformat><responserequired>0</responserequired>
+  <responsefieldlines>6</responsefieldlines>
+  <attachments>0</attachments><attachmentsrequired>0</attachmentsrequired>
+  <graderinfo format="html"><text><![CDATA[Señales a buscar: descompone en pasos antes de programar; menciona probar con casos concretos (2000, 1900); busca primero la regla. Quien contesta «lo buscaría en Google» aún no tiene método propio.]]></text></graderinfo>
+</question>
+
+<question type="essay">
+  <name><text>C2 - A veces falla</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un compañero te pasa un programa suyo y te dice que «<b>a veces falla</b>».</p><p><b>¿Cómo buscarías el problema?</b> Di al menos dos cosas que harías.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade><penalty>0</penalty>
+  <responseformat>editor</responseformat><responserequired>0</responserequired>
+  <responsefieldlines>6</responsefieldlines>
+  <attachments>0</attachments><attachmentsrequired>0</attachmentsrequired>
+  <graderinfo format="html"><text><![CDATA[Señales: pregunta CUÁNDO falla (busca reproducir); prueba con entradas concretas; menciona imprimir valores o usar el depurador. «Miraría el código» a secas indica que aún no hay método.]]></text></graderinfo>
+</question>
+
+<question type="essay">
+  <name><text>C3 - Trabajar en equipo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Estáis <b>tres personas</b> haciendo un mismo proyecto de clase.</p><p><b>¿Cómo os organizaríais para no pisaros el trabajo?</b> No hace falta que conozcas ninguna herramienta: cuenta cómo lo harías tú.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade><penalty>0</penalty>
+  <responseformat>editor</responseformat><responserequired>0</responserequired>
+  <responsefieldlines>6</responsefieldlines>
+  <attachments>0</attachments><attachmentsrequired>0</attachmentsrequired>
+  <graderinfo format="html"><text><![CDATA[La respuesta más común es pasarse el fichero por WhatsApp o correo. Guardar esas respuestas: leerlas en voz alta (sin nombres) al empezar Git en la UD4 es la mejor introducción posible.]]></text></graderinfo>
+</question>
+
+<question type="category">
+  <category><text>$course$/top/ENDES - Evaluacion inicial/D - Como te ves</text></category>
+  <info format="html"><text><![CDATA[<p>Autoevaluación de partida y expectativas. Sin respuesta correcta.</p>]]></text></info>
+</question>
+
+<question type="multichoice">
+  <name><text>D1a - Instalar y configurar</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Puntúa tu nivel de partida en:</b> instalar un programa y configurarlo a mi gusto.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[0 · Nunca lo he hecho]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[1 · Lo he visto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[2 · Lo sé hacer con ayuda]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[3 · Lo sé hacer solo/a]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>D1b - Programar desde cero</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Puntúa tu nivel de partida en:</b> escribir un programa sencillo desde cero.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[0 · Nunca lo he hecho]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[1 · Lo he visto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[2 · Lo sé hacer con ayuda]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[3 · Lo sé hacer solo/a]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>D1c - Encontrar errores</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Puntúa tu nivel de partida en:</b> encontrar un error en un código que no funciona.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[0 · Nunca lo he hecho]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[1 · Lo he visto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[2 · Lo sé hacer con ayuda]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[3 · Lo sé hacer solo/a]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>D1d - Terminal</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Puntúa tu nivel de partida en:</b> usar la terminal o línea de comandos.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[0 · Nunca lo he hecho]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[1 · Lo he visto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[2 · Lo sé hacer con ayuda]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[3 · Lo sé hacer solo/a]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>D1e - Trabajo en equipo</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Puntúa tu nivel de partida en:</b> trabajar en equipo sobre los mismos ficheros.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[0 · Nunca lo he hecho]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[1 · Lo he visto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[2 · Lo sé hacer con ayuda]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[3 · Lo sé hacer solo/a]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>D1f - Ingles tecnico</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>Puntúa tu nivel de partida en:</b> leer documentación técnica en inglés.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[Esta pregunta no tiene respuesta correcta: es información para el profesor.]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade>
+  <penalty>0</penalty><single>true</single>
+  <shuffleanswers>false</shuffleanswers>
+  <answernumbering>none</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[0 · Nunca lo he hecho]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[1 · Lo he visto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[2 · Lo sé hacer con ayuda]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[3 · Lo sé hacer solo/a]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="essay">
+  <name><text>D2 - Expectativas</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Qué esperas conseguir con este módulo?</b> Una frase.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade><penalty>0</penalty>
+  <responseformat>editor</responseformat><responserequired>0</responserequired>
+  <responsefieldlines>3</responsefieldlines>
+  <attachments>0</attachments><attachmentsrequired>0</attachmentsrequired>
+  <graderinfo format="html"><text><![CDATA[Separa a quien quiere aprobar de quien quiere dedicarse a esto.]]></text></graderinfo>
+</question>
+
+<question type="essay">
+  <name><text>D3 - Preocupaciones</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Qué es lo que más te preocupa del curso?</b> Sé sincero: esto me sirve de verdad.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade><penalty>0</penalty>
+  <responseformat>editor</responseformat><responserequired>0</responserequired>
+  <responsefieldlines>4</responsefieldlines>
+  <attachments>0</attachments><attachmentsrequired>0</attachmentsrequired>
+  <graderinfo format="html"><text><![CDATA[Suele ser donde aparecen los problemas reales: horarios, base de matemáticas, miedo a no seguir el ritmo.]]></text></graderinfo>
+</question>
+
+<question type="essay">
+  <name><text>D4 - Algo mas</text></name>
+  <questiontext format="html"><text><![CDATA[<p><b>¿Hay algo que deba saber para poder ayudarte mejor?</b></p><p><i>Opcional: horarios de trabajo, dificultades con el material, lo que quieras contarme.</i></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Gracias. Esto se queda conmigo, no se comparte con el resto de la clase y no se califica. En una semana os cuento en clase qué ha salido en el conjunto del grupo y qué voy a cambiar por ello.</p>]]></text></generalfeedback>
+  <defaultgrade>0</defaultgrade><penalty>0</penalty>
+  <responseformat>editor</responseformat><responserequired>0</responserequired>
+  <responsefieldlines>5</responsefieldlines>
+  <attachments>0</attachments><attachmentsrequired>0</attachmentsrequired>
+  <graderinfo format="html"><text><![CDATA[Campo abierto. Aquí salen las circunstancias personales que condicionan el seguimiento del módulo.]]></text></graderinfo>
+</question>
+
+</quiz>

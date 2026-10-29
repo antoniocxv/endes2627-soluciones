@@ -1,0 +1,11 @@
+@startuml
+!include estilo.iuml
+object Usuario
+object CLI
+object GestorTareas
+object AlmacenJSON
+Usuario -> CLI : 1: añadir(titulo)
+CLI -> GestorTareas : 2: anadir(titulo)
+GestorTareas -> AlmacenJSON : 2.1: cargar()
+GestorTareas -> AlmacenJSON : 2.2: guardar(tareas)
+@enduml

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="category">
+  <category><text>$course$/top/ENDES - UD1 Teoria</text></category>
+  <info format="html"><text><![CDATA[<p>Preguntas de teoría de la UD1: software, código fuente y programa, traductores, tipos de lenguaje y ciclo de vida. Autocorregibles.</p>]]></text></info>
+</question>
+<question type="multichoice">
+  <name><text>UD1-01 Rasgos del software</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál de estas afirmaciones sobre el software es <b>falsa</b>?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El software no sufre desgaste. Si un programa falla a los diez años, el fallo estaba desde el principio: lo que ha cambiado es la entrada que recibe.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="0" format="html"><text><![CDATA[Se desarrolla, no se fabrica]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Es lógico, no físico]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="100" format="html"><text><![CDATA[Se va desgastando con el uso, como cualquier máquina]]></text><feedback format="html"><text><![CDATA[Es justo el rasgo que lo distingue: el software NO se desgasta.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Una copia es idéntica al original]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-02 Programa y aplicacion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál es la diferencia entre un <b>programa</b> y una <b>aplicación</b>?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Todo aplicación está hecha de programas, pero no todo programa es una aplicación: el comando <i>ping</i> es un programa y no es una aplicación.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[El programa tiene una finalidad concreta; la aplicación son uno o varios programas que permiten hacer una tarea completa]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[El programa es gratuito y la aplicación de pago]]></text><feedback format="html"><text><![CDATA[Nada que ver con el precio.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[La aplicación se instala y el programa no]]></text><feedback format="html"><text><![CDATA[Los dos pueden instalarse o no.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Son lo mismo]]></text><feedback format="html"><text><![CDATA[Sí hay diferencia.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-03 Estandar o a medida</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Una empresa compra un programa de gestión que usan miles de empresas más y luego lo <b>configura</b> para su forma de trabajar. Ese software es:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p><b>Configurar no es desarrollar.</b> Si sale una actualización del fabricante, la reciben todos los clientes: eso no pasa con el software a medida. Es el caso de Moodle, SAP o WordPress.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Estándar, porque el producto base es genérico y configurarlo no es desarrollarlo]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[A medida, porque está adaptado a esa empresa]]></text><feedback format="html"><text><![CDATA[Adaptado con la configuración que el propio producto ofrece. Eso no es desarrollar a medida.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Mixto: no existe esa categoría]]></text><feedback format="html"><text><![CDATA[No es una categoría del módulo.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Depende del precio que haya pagado]]></text><feedback format="html"><text><![CDATA[El precio no clasifica el software.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-04 Se obtiene</text></name>
+  <questiontext format="html"><text><![CDATA[<p>«Un programa no se escribe: se obtiene.» ¿Qué quiere decir?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Entre el código fuente y el programa ejecutable <b>siempre</b> hay alguien traduciendo: un compilador o un intérprete.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Que lo que se escribe es el código fuente, y el programa lo produce un traductor a partir de él]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que los programas se compran, no se hacen]]></text><feedback format="html"><text><![CDATA[No va de comprar.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que hay que descargarlo de internet]]></text><feedback format="html"><text><![CDATA[No.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que lo genera automáticamente el sistema operativo]]></text><feedback format="html"><text><![CDATA[El sistema operativo no genera programas.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-05 Cual se lee</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál de estos dos se puede abrir con el Bloc de notas y <b>leer</b>?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El código fuente es texto plano. El ejecutable es binario: si lo abres con un editor, sale un galimatías.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[El código fuente, porque es texto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[El ejecutable, porque está terminado]]></text><feedback format="html"><text><![CDATA[El ejecutable es binario: sale ilegible.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Los dos, si usas la codificación correcta]]></text><feedback format="html"><text><![CDATA[No es cuestión de codificación: el binario no es texto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Ninguno de los dos]]></text><feedback format="html"><text><![CDATA[El fuente sí.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-06 Que le falta al objeto</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Qué le falta al <b>código objeto</b> para poder ejecutarse?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El traductor deja huecos donde van las funciones de biblioteca. Hasta que el enlazador los rellena, el fichero no puede ejecutarse.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Las bibliotecas: las funciones que el programador usa pero no ha escrito]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Estar traducido a código máquina]]></text><feedback format="html"><text><![CDATA[Ya lo está: el código objeto es binario.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Tener extensión .exe]]></text><feedback format="html"><text><![CDATA[La extensión no cambia el contenido.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Un sistema operativo]]></text><feedback format="html"><text><![CDATA[El sistema operativo ya está ahí.]]></text></feedback></answer>
+</question>
+
+<question type="shortanswer">
+  <name><text>UD1-07 Quien enlaza</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cómo se llama el programa que junta tu código objeto con las bibliotecas y rellena esos huecos?</p><p><i>Una sola palabra.</i></p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El <b>enlazador</b> (en inglés, <i>linker</i>). El error «undefined reference» no es de compilación: es suyo.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><usecase>0</usecase>
+  <answer fraction="100" format="moodle_auto_format"><text>enlazador</text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>el enlazador</text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>linker</text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>el linker</text><feedback format="html"><text><![CDATA[Correcto.]]></text></feedback></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>*</text><feedback format="html"><text><![CDATA[No es la palabra que buscábamos. Revisa la retroalimentación.]]></text></feedback></answer>
+</question>
+
+<question type="matching">
+  <name><text>UD1-08 Orden de los tres ficheros</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Ordena los tres ficheros según el momento en que aparecen.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Código fuente → código objeto → ejecutable. Los dos últimos son binarios; solo el tercero arranca.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><shuffleanswers>true</shuffleanswers>
+  <subquestion format="html"><text><![CDATA[Código fuente]]></text><answer><text><![CDATA[1]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Código objeto]]></text><answer><text><![CDATA[2]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Ejecutable]]></text><answer><text><![CDATA[3]]></text></answer></subquestion>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-09 Compilador vs interprete</text></name>
+  <questiontext format="html"><text><![CDATA[<p>La diferencia entre <b>compilador</b> e <b>intérprete</b> es que:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Y de ahí salen todas las demás diferencias: velocidad, cuándo ves los errores y qué le entregas al cliente.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[El compilador traduce todo el programa antes de ejecutarlo y genera un ejecutable; el intérprete traduce y ejecuta línea a línea sin generar nada]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[El compilador es para programas grandes y el intérprete para pequeños]]></text><feedback format="html"><text><![CDATA[El tamaño no tiene nada que ver.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[El compilador traduce a un lenguaje de alto nivel y el intérprete a bajo nivel]]></text><feedback format="html"><text><![CDATA[Los dos van hacia la máquina, no al revés.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[El intérprete es más moderno]]></text><feedback format="html"><text><![CDATA[Los dos son de los años cincuenta y sesenta.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-10 Cuando ves el error</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Con un <b>intérprete</b>, ¿cuándo te enteras de que tienes un error en la línea 300?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Por eso en lenguajes interpretados las <b>pruebas automáticas</b> son aún más necesarias: el traductor no te avisa de casi nada por adelantado. Lo veremos en la UD3.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Cuando el programa llega a ejecutar esa línea, que puede ser a los diez minutos de estar funcionando]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Antes de ejecutar, junto a todos los demás errores]]></text><feedback format="html"><text><![CDATA[Eso es lo que hace un compilador.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Al guardar el fichero]]></text><feedback format="html"><text><![CDATA[Guardar no traduce nada.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Nunca: el intérprete los corrige solos]]></text><feedback format="html"><text><![CDATA[Ningún traductor corrige errores.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-11 Entregar el fuente</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Le entregas a un cliente un programa hecho en un lenguaje <b>interpretado</b>. ¿Le estás dando también tu código fuente?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Es una consideración real de negocio. Por eso existen los ofuscadores y por eso algunas empresas eligen el lenguaje por este motivo y no por otro.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Sí, porque en un lenguaje interpretado lo que se ejecuta es el propio código fuente]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No, porque se entrega compilado]]></text><feedback format="html"><text><![CDATA[Si estuviera compilado no sería interpretado.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[No, porque el intérprete lo cifra]]></text><feedback format="html"><text><![CDATA[El intérprete no cifra nada.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Solo si el cliente lo pide]]></text><feedback format="html"><text><![CDATA[No depende de que lo pida: es lo único que puedes darle.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-12 Que genera el mixto</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un traductor <b>mixto</b> (Java, C#) no genera un ejecutable. ¿Qué genera?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Bytecode en Java, CIL en C#. Ese fichero necesita después una máquina virtual que lo termine de traducir.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Un código intermedio, que no es de ninguna máquina concreta]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Código fuente en otro lenguaje]]></text><feedback format="html"><text><![CDATA[Eso sería un transpilador, otra cosa.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Nada, como el intérprete]]></text><feedback format="html"><text><![CDATA[Sí genera un fichero: el .class o la .dll.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Un ejecutable, pero más pequeño]]></text><feedback format="html"><text><![CDATA[No es un ejecutable: no arranca solo.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-13 Para que la maquina virtual</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Para qué sirve la <b>máquina virtual</b> en la vía mixta?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Ojo con la palabra: la máquina virtual de Java y una máquina virtual de VirtualBox se llaman igual y no son lo mismo.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Para traducir el código intermedio al código máquina del sistema donde se está ejecutando]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Para simular otro sistema operativo entero]]></text><feedback format="html"><text><![CDATA[Eso es una máquina virtual de sistema, tipo VirtualBox. No es lo mismo.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Para guardar el programa en la nube]]></text><feedback format="html"><text><![CDATA[No.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Para comprobar que el programa no tiene errores]]></text><feedback format="html"><text><![CDATA[No es su función.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-14 Escribe una vez</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Java se creó buscando «escribir una vez, ejecutar en cualquier sitio». ¿Cómo lo consigue?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Conclusión importante: <b>lo portable no es tu código, es la máquina virtual</b>, que alguien tuvo que escribir para cada sistema.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[No traduciendo del todo: genera un código intermedio universal, y cada sistema tiene su propia máquina virtual que termina el trabajo]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Generando un ejecutable distinto para cada sistema operativo]]></text><feedback format="html"><text><![CDATA[Eso es lo que hace un compilador normal, y es justo lo que quería evitar.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Porque el código de Java funciona directamente en cualquier procesador]]></text><feedback format="html"><text><![CDATA[Ningún procesador entiende Java.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Porque se ejecuta siempre en un servidor]]></text><feedback format="html"><text><![CDATA[No.]]></text></feedback></answer>
+</question>
+
+<question type="matching">
+  <name><text>UD1-15 Niveles de lenguaje</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Ordena del <b>más cerca de la máquina</b> (1) al <b>más cerca de la persona</b> (3).</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Cuanto más alto el nivel, más fácil de escribir y más lejos del hardware. Todo acaba convertido en lo de abajo.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><shuffleanswers>true</shuffleanswers>
+  <subquestion format="html"><text><![CDATA[Lenguaje máquina]]></text><answer><text><![CDATA[1]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Ensamblador]]></text><answer><text><![CDATA[2]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Alto nivel]]></text><answer><text><![CDATA[3]]></text></answer></subquestion>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-16 Criterios de clasificacion</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuáles son los cuatro criterios para clasificar un lenguaje de programación?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Son independientes: un lenguaje se clasifica en los cuatro a la vez.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Nivel, forma de traducción, propósito y paradigma]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Nivel, antigüedad, popularidad y precio]]></text><feedback format="html"><text><![CDATA[Ninguno de los tres últimos es un criterio técnico.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Velocidad, tamaño, seguridad y portabilidad]]></text><feedback format="html"><text><![CDATA[Son propiedades, no criterios de clasificación.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Compilado, interpretado, mixto y transpilado]]></text><feedback format="html"><text><![CDATA[Eso es solo uno de los cuatro criterios.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-17 Clasificar Java</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Según esos cuatro criterios, <b>Java</b> es:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Si dudas entre «compilado» y «mixto», la pregunta es siempre la misma: ¿qué fichero sale, y arranca solo?</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Alto nivel · mixto · propósito general · orientado a objetos]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Alto nivel · compilado · propósito general · orientado a objetos]]></text><feedback format="html"><text><![CDATA[No es compilado puro: genera bytecode, no un ejecutable.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Bajo nivel · mixto · propósito específico · imperativo]]></text><feedback format="html"><text><![CDATA[Java no es de bajo nivel ni de propósito específico.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Alto nivel · interpretado · propósito general · funcional]]></text><feedback format="html"><text><![CDATA[No es interpretado ni principalmente funcional.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-18 Multiparadigma</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Qué significa que un lenguaje sea <b>multiparadigma</b>?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Python y Java lo son. Los lenguajes puros —Prolog, Haskell— son hoy la excepción.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Que admite varias formas de organizar la solución: por ejemplo imperativa y orientada a objetos a la vez]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que se puede compilar e interpretar]]></text><feedback format="html"><text><![CDATA[Eso es la vía mixta, no el paradigma.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que funciona en varios sistemas operativos]]></text><feedback format="html"><text><![CDATA[Eso es portabilidad.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que sirve para varios propósitos]]></text><feedback format="html"><text><![CDATA[Eso es ser de propósito general.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-19 Paradigma declarativo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>En el paradigma <b>declarativo</b>, el programador:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Cuando escribes una consulta SQL no dices cómo recorrer la tabla: dices qué filas quieres y el gestor decide cómo buscarlas.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Dice QUÉ quiere obtener, no cómo obtenerlo. SQL es el ejemplo típico]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Dice CÓMO hacerlo, paso a paso]]></text><feedback format="html"><text><![CDATA[Eso es el paradigma imperativo.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Declara todas las variables al principio]]></text><feedback format="html"><text><![CDATA[No va de declarar variables.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Trabaja con objetos que se mandan mensajes]]></text><feedback format="html"><text><![CDATA[Eso es la orientación a objetos.]]></text></feedback></answer>
+</question>
+
+<question type="matching">
+  <name><text>UD1-20 Fases del ciclo de vida</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Ordena las cinco fases principales del ciclo de vida del software.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La documentación no va en un número: atraviesa todas las fases.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><shuffleanswers>true</shuffleanswers>
+  <subquestion format="html"><text><![CDATA[Análisis de requisitos]]></text><answer><text><![CDATA[1]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Diseño]]></text><answer><text><![CDATA[2]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Codificación]]></text><answer><text><![CDATA[3]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Pruebas]]></text><answer><text><![CDATA[4]]></text></answer></subquestion>
+  <subquestion format="html"><text><![CDATA[Mantenimiento]]></text><answer><text><![CDATA[5]]></text></answer></subquestion>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-21 Coste del mantenimiento</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Qué porcentaje del coste total de un programa se va, aproximadamente, en el <b>mantenimiento</b>?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Codificar es la parte más corta y más barata. Por eso el módulo insiste tanto en documentar, probar y dejar el código legible: eso decide el coste de los diez años siguientes.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Alrededor del 80 %]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Alrededor del 20 %]]></text><feedback format="html"><text><![CDATA[Ese es el porcentaje de todo lo demás junto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Alrededor del 50 %]]></text><feedback format="html"><text><![CDATA[Se queda corto.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Prácticamente nada: una vez hecho, ya está]]></text><feedback format="html"><text><![CDATA[Es justo al revés.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-22 Problema de cascada</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál es el problema del modelo en <b>cascada</b>?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El cliente siempre cambia de opinión, y en cascada volver atrás sale carísimo. Todos los modelos posteriores son formas distintas de aceptar ese hecho.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Da por supuesto que los requisitos están claros desde el principio y no van a cambiar]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que no incluye la fase de pruebas]]></text><feedback format="html"><text><![CDATA[Sí la incluye.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que es demasiado moderno y poco probado]]></text><feedback format="html"><text><![CDATA[Es de 1970.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Que solo sirve para proyectos pequeños]]></text><feedback format="html"><text><![CDATA[Se usó sobre todo en proyectos grandes.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-23 El depurador</text></name>
+  <questiontext format="html"><text><![CDATA[<p>El <b>depurador</b> sirve para:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Aprender a usarlo es lo que separa programar a base de mensajes por pantalla de programar en serio. Se ve en la UD3.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Detener el programa en un punto y ver el valor de las variables]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Corregir automáticamente los errores]]></text><feedback format="html"><text><![CDATA[Te enseña dónde está el error; corregirlo es cosa tuya.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Eliminar el código que no se usa]]></text><feedback format="html"><text><![CDATA[No es su función.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Comprobar la ortografía del código]]></text><feedback format="html"><text><![CDATA[No existe tal cosa.]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>UD1-24 El exe en Linux</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un ejecutable <code>.exe</code> de Windows no funciona en Linux. ¿Por qué <b>no</b> es?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La respuesta que había que marcar es la del procesador, porque es la <b>falsa</b>. Lo que cambia es el envoltorio del fichero y a quién le pide las cosas el programa, no la CPU.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><single>true</single>
+  <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[Porque el procesador es distinto]]></text><feedback format="html"><text><![CDATA[Correcto: esta es la falsa. Los dos corren sobre el mismo procesador y el código máquina es el mismo.]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Porque el formato del fichero ejecutable es distinto]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Porque las llamadas al sistema son distintas]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[Porque faltan las bibliotecas que necesita]]></text><feedback format="html"><text><![CDATA[]]></text></feedback></answer>
+</question>
+
+</quiz>

@@ -1,0 +1,53 @@
+@startuml
+!include estilo.iuml
+
+interface Almacenable {
+  + cargar() : Tarea[]
+  + guardar(t : Tarea[]) : void
+}
+
+class AlmacenJSON {
+  - ruta : string
+  + cargar() : Tarea[]
+  + guardar(t : Tarea[]) : void
+}
+
+abstract class Elemento {
+  # id : number
+  # titulo : string
+  + {abstract} describir() : string
+}
+
+class Tarea {
+  - hecha : boolean
+  - fechaLimite : Date
+  + marcarHecha() : void
+  + estaVencida(ahora : Date) : boolean
+  + describir() : string
+}
+
+class Proyecto {
+  - descripcion : string
+  + describir() : string
+  + progreso() : number
+}
+
+class Etiqueta {
+  - nombre : string
+  - color : string
+}
+
+class GestorTareas {
+  - almacen : Almacenable
+  + anadir(t : Tarea) : void
+  + listar() : Tarea[]
+  + borrar(id : number) : boolean
+}
+
+Elemento <|-- Tarea
+Elemento <|-- Proyecto
+Almacenable <|.. AlmacenJSON
+GestorTareas o-- "1" Almacenable
+Proyecto *-- "0..*" Tarea
+Tarea "0..*" -- "0..*" Etiqueta
+@enduml

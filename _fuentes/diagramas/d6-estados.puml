@@ -1,0 +1,12 @@
+@startuml
+!include estilo.iuml
+[*] --> Pendiente : crear()
+Pendiente --> EnCurso : empezar()
+EnCurso --> Pendiente : pausar()
+EnCurso --> Hecha : completar()
+Pendiente --> Vencida : [fechaLimite < hoy]
+EnCurso --> Vencida : [fechaLimite < hoy]
+Vencida --> Hecha : completar()
+Hecha --> [*] : archivar()
+Pendiente --> [*] : borrar()
+@enduml

@@ -1,0 +1,29 @@
+@startuml
+!include estilo.iuml
+actor Usuario
+participant "CLI" as CLI
+participant "GestorTareas" as G
+participant "AlmacenJSON" as A
+
+Usuario -> CLI : añadir "Estudiar UD6"
+activate CLI
+CLI -> G : anadir(titulo)
+activate G
+G -> A : cargar()
+activate A
+A --> G : Tarea[]
+deactivate A
+G -> G : validar(titulo)
+alt título válido
+  G -> A : guardar(tareas)
+  activate A
+  A --> G : ok
+  deactivate A
+  G --> CLI : Tarea creada
+else título vacío
+  G --> CLI : Error de validación
+end
+deactivate G
+CLI --> Usuario : mensaje en pantalla
+deactivate CLI
+@enduml

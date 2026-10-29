@@ -1,0 +1,44 @@
+skinparam dpi 130
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Carlito
+skinparam class {
+  BackgroundColor #DCE9F5
+  BorderColor #1F4E79
+  ArrowColor #1F4E79
+}
+skinparam interface {
+  BackgroundColor #E2EFD9
+  BorderColor #375623
+}
+skinparam usecase {
+  BackgroundColor #DCE9F5
+  BorderColor #1F4E79
+}
+skinparam actor {
+  BorderColor #1F4E79
+  BackgroundColor #FBE4D5
+}
+skinparam sequence {
+  ParticipantBackgroundColor #DCE9F5
+  ParticipantBorderColor #1F4E79
+  ArrowColor #1F4E79
+  LifeLineBorderColor #1F4E79
+  ActorBackgroundColor #FBE4D5
+  ActorBorderColor #1F4E79
+}
+skinparam state {
+  BackgroundColor #DCE9F5
+  BorderColor #1F4E79
+}
+skinparam activity {
+  BackgroundColor #DCE9F5
+  BorderColor #1F4E79
+  ArrowColor #1F4E79
+  DiamondBackgroundColor #FBE4D5
+  DiamondBorderColor #C55A11
+}
+skinparam object {
+  BackgroundColor #DCE9F5
+  BorderColor #1F4E79
+}

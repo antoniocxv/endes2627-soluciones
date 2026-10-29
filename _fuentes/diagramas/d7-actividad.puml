@@ -1,0 +1,27 @@
+@startuml
+!include estilo.iuml
+|Usuario|
+start
+:Escribir el comando;
+|Aplicación|
+:Analizar argumentos;
+if (¿comando conocido?) then (sí)
+  if (¿datos válidos?) then (sí)
+    :Cargar tareas del fichero;
+    :Aplicar la operación;
+    fork
+      :Guardar en disco;
+    fork again
+      :Registrar en el log;
+    end fork
+    :Mostrar confirmación;
+  else (no)
+    |Usuario|
+    :Ver error de validación;
+  endif
+else (no)
+  |Usuario|
+  :Ver la ayuda;
+endif
+stop
+@enduml

@@ -1,0 +1,53 @@
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\definecolor{azulud}{HTML}{1F4E79}
+\definecolor{azulclaro}{HTML}{DCE9F5}
+\definecolor{naranja}{HTML}{C55A11}
+\definecolor{naranjaclaro}{HTML}{FBE4D5}
+\definecolor{verde}{HTML}{375623}
+\definecolor{verdeclaro}{HTML}{E2EFD9}
+\definecolor{grisclaro}{HTML}{F2F2F2}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[L]{\small\color{azulud}\textbf{Entornos de Desarrollo} --- 1.º DAW}
+\fancyhead[R]{\small\color{azulud}HEADERRIGHT}
+\fancyfoot[C]{\small\thepage}
+
+\titleformat{\section}{\Large\bfseries\color{azulud}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries\color{azulud}}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{naranja}}{\thesubsubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{1.4em}{0.7em}
+\titlespacing*{\subsection}{0pt}{1.1em}{0.5em}
+
+\tcbuselibrary{skins,breakable}
+\newtcolorbox{cajaidea}[1][]{breakable,enhanced,colback=azulclaro,colframe=azulud,
+  coltitle=white,fonttitle=\bfseries\small,boxrule=0.8pt,arc=2pt,left=6pt,right=6pt,
+  top=5pt,bottom=5pt,#1}
+\newtcolorbox{cajapractica}[1][]{breakable,enhanced,colback=verdeclaro,colframe=verde,
+  coltitle=white,fonttitle=\bfseries\small,boxrule=0.8pt,arc=2pt,left=6pt,right=6pt,
+  top=5pt,bottom=5pt,#1}
+\newtcolorbox{cajaojo}[1][]{breakable,enhanced,colback=naranjaclaro,colframe=naranja,
+  coltitle=white,fonttitle=\bfseries\small,boxrule=0.8pt,arc=2pt,left=6pt,right=6pt,
+  top=5pt,bottom=5pt,#1}
+
+\newenvironment{practica}{\begin{cajapractica}[title=Práctica]}{\end{cajapractica}}
+\newenvironment{idea}{\begin{cajaidea}[title=Idea clave]}{\end{cajaidea}}
+\newenvironment{ojo}{\begin{cajaojo}[title=Para el examen / Ojo]}{\end{cajaojo}}
+
+\usepackage{longtable,booktabs,array}
+\setlength{\emergencystretch}{3em}
+
+\usepackage{graphicx}
+\usepackage{float}
+\floatplacement{figure}{H}
+\setkeys{Gin}{width=0.72\linewidth,keepaspectratio}
+\usepackage{caption}
+\captionsetup{font=small,labelfont={bf,color=azulud},textfont=it}
+\setlist{itemsep=2pt,parsep=0pt,topsep=4pt}

@@ -1,0 +1,15 @@
+@startuml
+!include estilo.iuml
+class Tarea {
+  - id : number
+  - titulo : string
+  - hecha : boolean
+  - fechaLimite : Date
+  + {static} contador : number
+  --
+  + marcarHecha() : void
+  + estaVencida(ahora : Date) : boolean
+  # validar() : boolean
+  - generarId() : number
+}
+@enduml

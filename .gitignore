@@ -1,0 +1,10 @@
+# Papelera local: no se sube
+_papelera/
+
+# Copia de Moodle (382 MB, GitHub no admite > 100 MB). Se queda solo en local.
+*.mbz
+
+# Temporales de Office y Windows
+~$*
+Thumbs.db
+desktop.ini
